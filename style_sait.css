@@ -1,0 +1,169 @@
+* {margin: 0;
+padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.conteyner {
+    max-width: 900px;
+    min-width: 600px;
+   background-color: rgb(195, 221, 250);
+    font-family: Roboto, Verdana, sans-serif;
+    margin: auto;}
+
+.foto_1 {width: 200px;
+border-radius: 25px;
+margin-left: 20px;}
+.foto_1:hover {opacity: 0.8;}
+
+.box {
+background-color: rgb(229, 226, 226);
+text-align: center ;
+border-radius: 15px;
+color: rgb(45, 45, 46);
+margin: 10px 20px;
+
+padding: 5px;}
+@media screen {
+    
+}
+.box_sv {
+    background-color: rgb(229, 226, 226);
+    border-radius: 15px;
+    color: rgb(45, 45, 46);
+    margin: 10px 20px;
+    padding: 5px;}
+
+.box_3 .block {width:24%;
+    height: 30px;
+    padding: 5px 20px;
+    background-color: rgb(58, 3, 3);
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.box_3 a {text-decoration: none;
+color: rgb(248, 234, 206);
+
+}
+.block {
+     border: 1px solid wheat;
+    color: rgb(247, 247, 247);
+    border-radius: 15px}
+
+.box_3 .block:hover {background-color: rgb(51, 40, 40);
+    border: 1px solid red;
+    color: rgb(7, 16, 24);
+
+}
+
+.zag_1 {color: rgb(143, 29, 29);
+font-size: 50px;
+
+margin-left: 25px;
+
+}
+.inline_3 {
+    margin-top: 25px;
+    margin-left: 60px;
+background-color: antiquewhite;}
+
+.inline_3 li {display: inline;
+    padding: 10px;
+    }
+.inline_3 li:hover {text-decoration: underline;}
+
+.box_1 {display: flex;}
+
+
+.zag_2 {text-decoration: underline;
+text-align: center;
+color: rgb(66, 11, 11);
+}
+
+.o_sebe {text-align: left;
+    font-size: 20px;
+padding-top: 15px ;}
+
+a {text-decoration: none;
+color: rgb(0, 60, 255);
+}
+.table {
+    width: 100%;
+    }
+.table th, .table td{
+    border: 0.5px solid red;
+    padding: 5px;
+}
+.table th{background-color: rgb(248, 203, 203);}
+
+
+
+.inline li {display: inline;
+padding: 20px;}
+.inline li:hover {text-decoration: underline;
+font-size: 16px;
+}
+
+
+.foto_2 {width: 150px;
+    border-radius: 40px;
+    padding: 15px;
+    height: 100px;
+opacity: 0.5;}
+.foto_2:hover {opacity: 1;}
+
+.form {padding: 20px;}
+.form_gr {margin-bottom: 20px;}
+.form_gr label {margin-bottom: 5px;
+    display: block;
+font-size: 20px;
+color: rgb(61, 10, 10)
+}
+.form_gr_2 label {margin-top: 10px}
+.form_gr input {width: 100%;
+box-sizing: border-box;
+border: none;
+color: black;
+outline: none;
+}
+
+
+.form_grup .form_gr {display: inline-block;
+margin-right: 30px;
+width: 45%;}
+
+.form_gr_2 label {display: block;
+font-size: 20px;
+margin-bottom: 5px}
+
+.form_grup_2 .form_gr_2{display: inline-block;
+margin-right:20px;
+margin-bottom: 20px;
+width: 30%;}
+
+.form_gr_3 {margin-bottom: 20px;
+       font-size: 20px;}
+
+
+
+.btn {margin-top: 10px;;
+    width: 150px;
+    color: rgb(223, 0, 19);
+    border: 2px solid rgb(170, 0, 147);
+    border-radius: 10px;
+    font-size: 20px;
+background-color: rgb(207, 195, 248);}
+
+.btn:hover {color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+    cursor: pointer;
+background-color: rgb(83, 30, 30);
+}
+
+.footer {background-color: rgb(66, 59, 59);
+    font-size: 15px;
+    text-align: center ;
+    color: rgb(255, 255, 255);
+    padding: 10px;}
+
